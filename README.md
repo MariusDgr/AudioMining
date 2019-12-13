@@ -16,12 +16,18 @@ Modules and auxiliary software that needs to be installed:
 - ffmpeg: mp3 to wav conversion
 ```
 
-## Roadmap 
+## Tasks and deadlines
 ---
 ![Gantt Diagram](./documentation/diagrams/gantt_roadmap.png)
 
-## Workflow
+## Project developement workflow
 ---
+A high level structure of the project modules comprising the prosect can be seen in the following diagram:
+
+![Workflow](./documentation/diagrams/project_workflow.png)
+
+
+
 The steps needed to complete the task will be described in a logical order:
 
 <!--
@@ -30,7 +36,7 @@ The steps needed to complete the task will be described in a logical order:
 
 ### Mixed samples (Training dataset)
 ---
-
+Mixed sound samples are needed as an input for the training of the model used in the app. 
 
 #### Mixed samples generation strategies
 
@@ -50,11 +56,17 @@ The steps needed to complete the task will be described in a logical order:
 6. More original samples ovelapped (same instrument)
 
 
-## Approaches
+### Algorithm approaches
+---
+#### State of the art: PCA, ICA
 
-### State of the art: PCA, ICA
+#### PCA
 
-### Neural Network
+#### ICA
+
+#### Neural Network
+
+NN architecture is composed by:
     - autoencoder
 
 <!--
