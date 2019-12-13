@@ -68,7 +68,7 @@ The steps needed to complete the task will be described in a logical order:
 
 ## License
 
-This project is licensed under the Apache license - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache license - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
