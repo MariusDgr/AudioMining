@@ -6,10 +6,9 @@ scriptPath = os.path.dirname(os.path.abspath(__file__))
 projRootPath = os.path.abspath(
     os.path.join(scriptPath ,
                 os.path.join('..', '..')))
+sys.path.append(projRootPath)
 
 from pydub import AudioSegment
-
-sys.path.append(projRootPath)
 
 from src.utils.console_functions import printProgressBar
 from src.utils.path_manipulation import splitall
