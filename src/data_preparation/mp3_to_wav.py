@@ -41,10 +41,8 @@ for r, d, f in os.walk(mp_path):
 
 # remove root folder first
 # print(mp_path)
+
 roots.remove(mp_path)
-
-remainingInstruments = []
-
 for r in roots:
     _, _, files = next(os.walk(r))
 
