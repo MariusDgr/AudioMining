@@ -75,7 +75,7 @@ NN architecture is composed by:
 
 ## Authors
 
-* **Marius Dragomir** - [MariusDgm](https://github.com/MariusDgr)
+* **Marius Dragomir** - [MariusDgr](https://github.com/MariusDgr)
 
 
 ## License
